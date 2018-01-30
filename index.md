@@ -48,9 +48,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h4>This workshop series provides a number of topics which can be attended separately. The topics to be covered are:
 <ul>
-<li>Git</li>
-<li>SQL for research</li>
-<li>R for data analysis</li>
+<li>20 February, 8:30-11:45am, Version Control With Git</li>
+<li>20 February, 12:30-4:30pm, SQL Databases With Python</li>
+<li>21-22 February, 9:00am-4:00pm, R for Reproducible Science</li>
 </ul>
 </h4>
 
