@@ -538,7 +538,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       (e.g., 3.6 is fine).
     </p>
 
-    <!--
+    {% comment %}
     <p>
       We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
@@ -548,7 +548,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
-    -->
+    {% endcomment %}
 
   <div class="row">
     <div class="col-md-4">
