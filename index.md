@@ -525,7 +525,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
   <p>
     Installing Python is only required for the second half of the Tuesday session, "Managing data with SQL", 
-    which demonstrates how to interface with SQLite with Python. If you are not attending the Tuesday afternoon 
+    which demonstrates how to use SQLite from within Python. If you are not attending the Tuesday afternoon 
     session you can safely skip this setup step.
   </p>
 
