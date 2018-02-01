@@ -524,6 +524,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <h3>Python</h3>
 
   <p>
+    Installing Python is only required for the second half of the Tuesday session, "Managing data with SQL", 
+    which demonstrates how to interface with SQLite with Python. If you are not attending the Tuesday afternoon 
+    session you can safely skip this setup step.
+  </p>
+
+  <p>
     <a href="http://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
     well.  Installing all of its research packages individually can be
@@ -531,7 +537,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
-
+  
     <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
