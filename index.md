@@ -5,9 +5,9 @@ venue: "UPEI"        # brief name of host site without address (e.g., "Euphoric 
 address: "Room 329 McDougall Hall, UPEI"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "ca"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "46.255095, -63.140259"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Feb 20-22"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-02-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-02-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Joey Bernard","Chris Geroux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -517,12 +517,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-<!--
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
            Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
   <h3>Python</h3>
+
+  <p>
+    Installing Python is only required for the second half of the Tuesday session, "Managing data with SQL", 
+    which demonstrates how to use SQLite from within Python. If you are not attending the Tuesday afternoon 
+    session you can safely skip this setup step.
+  </p>
 
   <p>
     <a href="http://python.org">Python</a> is a popular language for
@@ -532,13 +537,14 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
-
+  
     <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.6 is fine).
     </p>
 
+    {% comment %}
     <p>
       We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
@@ -548,6 +554,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
+    {% endcomment %}
 
   <div class="row">
     <div class="col-md-4">
@@ -610,7 +617,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
--->
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
