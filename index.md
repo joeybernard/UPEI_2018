@@ -7,7 +7,7 @@ country: "ca"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "46.255095, -63.140259"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Feb 20-22"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "8:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-02-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-02-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Joey Bernard","Chris Geroux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -49,7 +49,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h4>This workshop series provides a number of topics which can be attended separately. The topics to be covered are:
 <ul>
 <li>20 February, 8:30-11:45am, Version Control With Git</li>
-<li>20 February, 12:30-4:30pm, SQL Databases With Python</li>
+<li>20 February, 12:30-5:00pm, SQL Databases With Python</li>
 <li>21-22 February, 9:00am-4:00pm, R for Reproducible Science</li>
 </ul>
 </h4>
