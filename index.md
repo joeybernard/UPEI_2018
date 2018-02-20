@@ -50,7 +50,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <ul>
 <li>20 February, 8:30-11:45am, Version Control With Git</li>
 <li>20 February, 12:30-5:00pm, SQL Databases With Python</li>
-<li>21-22 February, 9:00am-4:00pm, R for Reproducible Science</li>
+<li>21-22 February, 8:30am-4:30pm, R for Reproducible Science</li>
 </ul>
 </h4>
 
